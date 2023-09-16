@@ -1,0 +1,76 @@
+body {
+    background: lightgrey;
+}
+
+h1 {
+    text-align: center;
+}
+
+.no-style {
+    list-style: none;
+}
+
+.no-margin {
+    margin: 8px 0;
+}
+
+li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: steelblue;
+    margin-left: 28%;
+    padding: 2px 4px;
+    border-radius: 10px;
+}
+
+
+
+a:hover {
+    color: black;
+    background: whitesmoke;
+       
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.recipe {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    padding: 10px 5px;
+    border-radius: 3em;
+    line-height: 1.5em;
+    text-align: justify;
+
+
+}
+
+.recipe li {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+li::marker {
+    font-style: bold;
+}
+
+.large {
+    font-size: 1.2em;
+}
+
+#pizza {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 3em;
+}
+
+.recipe ol {
+    padding: 0 10px 0 18px;
+}
